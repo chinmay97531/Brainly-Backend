@@ -44,7 +44,7 @@ Brainly Backend is a server-side application built with Node.js, Express, and Mo
 - `GET /api/v1/content` - Get Content details
 - `DELETE /api/v1/content` - Delete Content
 - `POST /api/v1/brain/share` - Share Content
-- `POST /api/v1/brain/share/"Your Shared Hash"` - Share Content Details
+- `GET /api/v1/brain/share/"Your Shared Hash"` - Share Content Details
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
