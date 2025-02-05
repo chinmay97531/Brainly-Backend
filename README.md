@@ -23,7 +23,7 @@ Brainly Backend is a server-side application built with Node.js, Express, and Mo
    npm install mongoose express jsonwebtoken zod bcrypt
    npm install --save-dev @types/express @types/jsonwebtoken @types/bcrypt
    ```
-4. Set up environment variables in a `.env` file:
+4. Set up environment variables in a `config.ts` file:
    ```env
    JWT_SECRET = your_jwt_secret
    MONGODBURL = your_mongodb_connection_string
